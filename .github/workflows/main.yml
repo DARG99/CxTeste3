@@ -1,6 +1,6 @@
 name: Checkmarx AST Scan
 on:
-  pull_request:
+  push:
     branches:
       - master
 jobs:
